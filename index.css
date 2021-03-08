@@ -1,0 +1,33 @@
+@charset "UTF-8";
+.old-user{
+    display: none;
+}
+
+.new-user{
+    display: block;
+}
+.user{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+.user p{
+    font-size: 40px;
+    border-bottom: 1px solid red;
+}
+.user input{
+    background-color: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000000;
+    font-size: 30px;
+}
+body{
+    background: url("https://source.unsplash.com/1920*1080");
+}
+.item li{
+    list-style: none;
+    font-size: 20px;
+    color: red;
+}

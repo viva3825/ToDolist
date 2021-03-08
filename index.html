@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>ToDoList</title>
+</head>
+<body>
+    <div class="new-user user">
+        <form onsubmit="handleUserSubmit(event)">
+            <p>what is your name</p>
+            <input type="text" class="name-text" placeholder="Your Name" autocomplete="off" maxlength="10" >
+        </form>    
+    </div>
+    <div class="old-user user">
+        <p> Hello terada</p> 
+        <div class="items">
+            <form onsubmit="handleItemSubmit(event)">
+                <input type="text" class="item-text" placeholder="what to buy" maxlength="10">
+            </form>
+            <ul class="item">
+
+
+            </ul>
+        </div>
+    </div>
+
+
+
+    <script src="user.js"></script>
+    <script src="index.js"></script>
+    <script src="item.js"></script>
+
+
+    
+</body>
+</html>
